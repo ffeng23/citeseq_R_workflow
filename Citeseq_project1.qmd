@@ -1,0 +1,76 @@
+---
+title: "CITE-seq project #1"
+author: Feng, Feng
+date: 12/14/2025
+format:
+  html:
+    code-fold: false
+    html-match-method: mathjax
+    embed-resources: true
+engine: knitr    
+---
+
+
+#
+
+```{r test}
+cat("feng",3+5)
+x=5+9
+cat(x)
+
+```
+
+next one
+
+```{r test2}
+
+x=runif(2)
+
+```
+
+## CITE-seq
+
+Theory:
+
+Definition:
+CITE-Seq (cellular indexing of transcriptomes and epitopes) is a sequencing-based method that **simultaneously quantifies cell surface protein and transcriptomic data** within a single cell readout. Studying cells concurrently at transcriptomic and proteomic levels can offer unprecedented insights into new cell types, disease states, or other conditions. 
+
+Key: cell surface protein, not the whole proteom. but can track much more than flow and CyTOF(Cytometry by time of flight).
+
+CyTOF: Cytometry by time of flight, or CyTOF, is an application of mass cytometry used to quantify labeled targets on the surface and interior of single cells. CyTOF allows the quantification of multiple cellular components simultaneously using an ICP-MS detector.
+It makes use of rare heavy metal tagged antibody to detect cellular components simultaneously. 
+
+Yes, CyTOF can detect intracellular components,  lipids etc.
+Superior Intracellular Detection of Cytokines, Transcription Factors, and Phosphoproteins by CyTOF Compared with Fluorescent Cytometry
+
+### 
+A long-standing method to study surface protein expression, such as flow cytometry, is robust but has been traditionally limited by the number of targets that can be analyzed, plus it cannot simultaneously provide transcriptomic data. CITE-seq accomplishes both of these goals in a single assay to provide a comprehensive view of single-cell function.
+
+### Advantages of Using CITE-Seq?
+
+CITE-Seq solves the problem of detecting a limited number of proteins while using single-cell sequencing to study transcripts in an unbiased way. Wielding the technology of barcoded antibodies, CITE-Seq is capable of analyzing a near-limitless number of cell markers along with transcripts in a single run. Combined with existing single-cell sequencing methods, our sequencing platforms ensure a smooth workflow to identify novel advancements with high throughput, scalability, and speed.
+
+### How Does CITE-Seq Work?
+
+CITE-seq uses unique oligo-tagged antibodies to identify surface proteins, using sequencing as a readout. The number of barcodes that can be conjugated to antibodies surpasses the number of fluorophores or heavy metal tags used in flow cytometry or CyTOF, expanding the number of proteins that can be measured simultaneously with RNA. These barcoded antibodies are part of a unique workflow that produces protein and nucleic acid data using next-generation sequencing (NGS) technologies
+
+### CITE-Seq vs. REAP-Seq
+
+RNA expression and protein sequencing (REAP-seq) and CITE-seq are based on similar principles. With the development of commercial reagents to support both protocols, many researchers now refer to them interchangeably or use the terms proteogenomics or multiomic analysis.
+
+## Data Analysis
+
+### Biologend MAS (multiomics analysis software)
+
+GUI tool??
+
+https://www.biolegend.com/en-us/totalseq/mas
+
+need to read the manual and watch the videos in the above link.
+
+Note: it uses counts data from cell ranger and seurat
+
+
+### Cell ranger
+
+download https://www.youtube.com/watch?v=6heXkouNZpk
