@@ -3,10 +3,8 @@
 
 This is a project to do CITE-seq and perturb-seq in R.
 
-https://en.wikipedia.org/wiki/CITE-Seq#/media/File:Structure_of_ADT&_Wetlab_workflow.jpg
+ADT antibody derived tag
 
-https://en.wikipedia.org/wiki/CITE-Seq#/media/File:Structure_of_ADT&_Wetlab_workflow.jpg
-
-https://upload.wikimedia.org/wikipedia/commons/5/50/Structure_of_ADT%26_Wetlab_workflow.jpg
+<img width="1020" height="574" alt="image" src="https://github.com/user-attachments/assets/3cba5c55-97bf-4803-95da-bbad6dea8170" />
 
 
