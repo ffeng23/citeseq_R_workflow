@@ -40,7 +40,7 @@ Key: cell surface protein, not the whole proteom. but can track much more than f
 CyTOF: Cytometry by time of flight, or CyTOF, is an application of mass cytometry used to quantify labeled targets on the surface and interior of single cells. CyTOF allows the quantification of multiple cellular components simultaneously using an ICP-MS detector.
 It makes use of rare heavy metal tagged antibody to detect cellular components simultaneously. 
 
-Yes, CyTOF can detect intracellular components,  lipids etc.
+Yes, CyTOF can detect intracellular components,  lipids etc
 Superior Intracellular Detection of Cytokines, Transcription Factors, and Phosphoproteins by CyTOF Compared with Fluorescent Cytometry
 
 ### 
